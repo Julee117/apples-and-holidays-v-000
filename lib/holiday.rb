@@ -77,8 +77,8 @@ def all_holidays_with_bbq(holiday_hash)
     data.each do |holiday, supply|
       if supply.include?("BBQ")
         holidays << holiday
-      end 
+      end
     end
-  end 
+  end
   holidays 
 end
