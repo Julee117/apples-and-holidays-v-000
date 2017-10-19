@@ -63,7 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
         word.capitalize
       end
       mod_holiday = mod_holiday.join(" ")
-      puts "#{season.capitalize}:"  
+      puts "#{season.capitalize}:"
       puts "  #{mod_holiday}: #{supply.join(", ")}"
     end
   end
